@@ -1,0 +1,14 @@
+*.*~
+components/*
+.sass-cache/*
+
+*backup/*
+*.sfd-*
+*/unhinted/*
+*-temp*
+*-backup*
+*.bak
+
+# Package
+*.zip
+sfd/*

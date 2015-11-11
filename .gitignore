@@ -12,3 +12,6 @@ components/*
 # Package
 *.zip
 sfd/*
+
+sources/*.otf
+sources/*.ttf

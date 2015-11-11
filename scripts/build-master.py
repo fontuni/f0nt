@@ -22,7 +22,7 @@ version = '0.1-alpha1'
 sources = ['sources/f0nt-master.sfd']
 layers = ['100', '200', '300', '400', '500', '600', '700', '800', '900', '1000']
 copyright =  'Copyright 2015, Sungsit Sawaiwan'
-features = ['f0nt-roman']
+features = ['f0nt-master']
 feature_dir = 'sources/'
 
 build_dir = 'fonts/'

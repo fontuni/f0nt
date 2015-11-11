@@ -1,4 +1,5 @@
 100: 18, 14, 9
 1000: 280, 120, 9
+1000 Thai top-bottom vowels: 210, 90, 9
 
 width dif = 135

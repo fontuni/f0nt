@@ -69,7 +69,7 @@ lookup ThaiContext.liga {
 
 feature liga {
   lookup Thai.liga;
-  lookup ThaiContext.liga;
+  #lookup ThaiContext.liga;
 } liga;
 
 #
@@ -87,8 +87,22 @@ lookup ThaiAbove.mark {
 
 } ThaiAbove.mark;
 
+lookup ThaiLiga.mark {
+  # 1. Define mark anchors:
+  @ABOVE = [ uni0E31 uni0E34 uni0E35 uni0E47 uni0E48 uni0E49 ];
+  markClass @ABOVE <anchor 0 0> @ThaiLiga.mark;
+ 
+  # 2. Define mark-to-ligature rules:
+  position ligature uni0E190E15.liga
+        <anchor 755 0> mark @ThaiLiga.mark
+        ligComponent
+        <anchor 1300 0> mark @ThaiLiga.mark
+        ;
+} ThaiLiga.mark;
+
 feature mark {
   lookup ThaiAbove.mark;
+  lookup ThaiLiga.mark;
 } mark;
 
 lookup ThaiAbove.mkmk {

@@ -8,12 +8,12 @@ languagesystem thai dflt;
 lookup Thai.liga {
   sub uni0E19 uni0E14 by uni0E190E14.liga;
   sub uni0E19 uni0E15 by uni0E190E15.liga;
-  sub uni0E19 uni0E32 by uni0E190E32.liga;
+  #sub uni0E19 uni0E32 by uni0E190E32.liga;
   sub uni0E1A uni0E19 by uni0E1A0E19.liga;
-  sub uni0E1A uni0E32 by uni0E1A0E32.liga;
+  #sub uni0E1A uni0E32 by uni0E1A0E32.liga;
   sub uni0E21 uni0E19 by uni0E210E19.liga;
-  sub uni0E21 uni0E32 by uni0E210E32.liga;
-  sub uni0E23 uni0E32 by uni0E230E32.liga;
+  #sub uni0E21 uni0E32 by uni0E210E32.liga;
+  #sub uni0E23 uni0E32 by uni0E230E32.liga;
   sub uni0E29 uni0E22 by uni0E290E22.liga;
 } Thai.liga;
 
@@ -58,13 +58,13 @@ lookup Thai0E23.0E32 {
 lookup ThaiContext.liga {
   sub uni0E19'lookup Thai0E19.0E14 @Above uni0E14'lookup ThaiCons.zw;
   sub uni0E19'lookup Thai0E19.0E15 @Above uni0E15'lookup ThaiCons.zw;
-  sub uni0E19'lookup Thai0E19.0E32 @Above uni0E32'lookup ThaiCons.zw;
+  #sub uni0E19'lookup Thai0E19.0E32 @Above uni0E32'lookup ThaiCons.zw;
   sub uni0E1A'lookup Thai0E1A.0E19 @Above @Above uni0E19'lookup ThaiCons.zw;
   sub uni0E1A'lookup Thai0E1A.0E19 @Above uni0E19'lookup ThaiCons.zw;
   sub uni0E1A'lookup Thai0E1A.0E19 @Below uni0E19'lookup ThaiCons.zw;
-  sub uni0E1A'lookup Thai0E1A.0E32 @Above uni0E32'lookup ThaiCons.zw;
+  #sub uni0E1A'lookup Thai0E1A.0E32 @Above uni0E32'lookup ThaiCons.zw;
   sub uni0E21'lookup Thai0E21.0E19 @Above uni0E19'lookup ThaiCons.zw;
-  sub uni0E23'lookup Thai0E23.0E32 @Above uni0E32'lookup ThaiCons.zw;
+  #sub uni0E23'lookup Thai0E23.0E32 @Above uni0E32'lookup ThaiCons.zw;
 } ThaiContext.liga;
 
 feature liga {

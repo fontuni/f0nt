@@ -179,16 +179,18 @@ def buildFont(source,family):
     subfamily = weights2Strings(font.os2_weight)
     font.fullname = family + ' ' + subfamily
     font.italicangle = 0.0
-    font.familyname = msFamilyName(font.os2_weight)
+    #font.familyname = msFamilyName(font.os2_weight)
+    font.familyname = family
 
     # Customize preferred subfamily & styles
 
-    font.appendSFNTName('English (US)', 'Family', font.familyname)
     font.appendSFNTName('English (US)', 'SubFamily', msStyleName(font.os2_weight))
     font.appendSFNTName('English (US)', 'Preferred Styles', subfamily)
 
     if layername == '1000':
-      font.appendSFNTName('English (US)', 'Preferred Family', font.familyname)
+      font.appendSFNTName('English (US)', 'Preferred Family', msFamilyName(font.os2_weight))
+    else:
+      font.appendSFNTName('English (US)', 'Family', font.familyname)
 
     # UniqueID with timestamp
     ts = datetime.datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d %H:%M:%S')

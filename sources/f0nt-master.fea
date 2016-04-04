@@ -1,119 +1,40 @@
 languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem latn MOL ;
+languagesystem latn ROM ;
 languagesystem thai dflt;
+languagesystem thai PAL ;
+languagesystem thai SAN ;
 
 #
+# Copyright (c) 2014-2016, Sungsit Sawaiwan (https://sungsit.com | gibbozer [at] gmail [dot] com).
+#
+# This Font Software is licensed under the SIL Open Font License, Version 1.1 (OFL).
+# You should have received a copy of the OFL License along with this file.
+# If not, see http://scripts.sil.org/OFL
+#
+
+# Do not reorder these included files unless you know what you're doing.
+
 # GSUB
-#
 
-lookup Thai.liga {
-  sub uni0E19 uni0E14 by uni0E190E14.liga;
-  sub uni0E19 uni0E15 by uni0E190E15.liga;
-  #sub uni0E19 uni0E32 by uni0E190E32.liga;
-  sub uni0E1A uni0E19 by uni0E1A0E19.liga;
-  #sub uni0E1A uni0E32 by uni0E1A0E32.liga;
-  sub uni0E21 uni0E19 by uni0E210E19.liga;
-  #sub uni0E21 uni0E32 by uni0E210E32.liga;
-  #sub uni0E23 uni0E32 by uni0E230E32.liga;
-  sub uni0E29 uni0E22 by uni0E290E22.liga;
-} Thai.liga;
+# Thai
+include(features/thai-core.fea)
+#include(features/thai-extra.fea)
+include(features/thai.liga.fea)
 
-lookup ThaiCons.zw {
-  sub uni0E14 by uni200D;
-  sub uni0E15 by uni200D;
-  sub uni0E19 by uni200D;
-  sub uni0E32 by uni200D;
-} ThaiCons.zw;
+# Latin
+#include(features/latin-core.fea)
+#include(features/latin-extra.fea)
 
-lookup Thai0E19.0E14 {
-  sub uni0E19 by uni0E190E14.liga;
-} Thai0E19.0E14;
-
-lookup Thai0E19.0E15 {
-  sub uni0E19 by uni0E190E15.liga;
-} Thai0E19.0E15;
-
-lookup Thai0E19.0E32 {
-  sub uni0E19 by uni0E190E32.liga;
-} Thai0E19.0E32;
-
-lookup Thai0E1A.0E19 {
-  sub uni0E1A by uni0E1A0E19.liga;
-} Thai0E1A.0E19;
-
-lookup Thai0E1A.0E32 {
-  sub uni0E1A by uni0E1A0E32.liga;
-} Thai0E1A.0E32;
-
-lookup Thai0E21.0E19 {
-  sub uni0E21 by uni0E210E19.liga;
-} Thai0E21.0E19;
-
-lookup Thai0E23.0E32 {
-  sub uni0E23 by uni0E230E32.liga;
-} Thai0E23.0E32;
-
-@Above = [ uni0E31 uni0E34 uni0E35 uni0E38 uni0E47 uni0E48 uni0E49 ];
-@Below = [ uni0E38 uni0E3A ];
-
-lookup ThaiContext.liga {
-  sub uni0E19'lookup Thai0E19.0E14 @Above uni0E14'lookup ThaiCons.zw;
-  sub uni0E19'lookup Thai0E19.0E15 @Above uni0E15'lookup ThaiCons.zw;
-  #sub uni0E19'lookup Thai0E19.0E32 @Above uni0E32'lookup ThaiCons.zw;
-  sub uni0E1A'lookup Thai0E1A.0E19 @Above @Above uni0E19'lookup ThaiCons.zw;
-  sub uni0E1A'lookup Thai0E1A.0E19 @Above uni0E19'lookup ThaiCons.zw;
-  sub uni0E1A'lookup Thai0E1A.0E19 @Below uni0E19'lookup ThaiCons.zw;
-  #sub uni0E1A'lookup Thai0E1A.0E32 @Above uni0E32'lookup ThaiCons.zw;
-  sub uni0E21'lookup Thai0E21.0E19 @Above uni0E19'lookup ThaiCons.zw;
-  #sub uni0E23'lookup Thai0E23.0E32 @Above uni0E32'lookup ThaiCons.zw;
-} ThaiContext.liga;
-
-feature liga {
-  lookup Thai.liga;
-  #lookup ThaiContext.liga;
-} liga;
-
-#
 # GPOS
-#
 
-lookup ThaiAbove.mark {
-  lookupflag 0;
+# Thai
+include(features/thai.mark.fea)
+include(features/thai.mkmk.fea)
+#include(features/thai-extra.kern.fea)
 
-  markClass [ uni0E31 uni0E34 uni0E35 uni0E47 uni0E48 uni0E49 ] <anchor 0 0> @ThaiAbove.mark;
-  pos base [ uni0E19 uni0E190E14.liga uni0E190E15.liga uni0E190E32.liga ] <anchor 825 0> mark @ThaiAbove.mark;
-  pos base [ uni0E21 uni0E210E19.liga uni0E210E32.liga ] <anchor 810 0> mark @ThaiAbove.mark;
-  pos base [ uni0E1A uni0E1A0E19.liga uni0E1A0E32.liga ] <anchor 810 0> mark @ThaiAbove.mark;
-  pos base [ uni0E23 uni0E230E32.liga ] <anchor 645 0> mark @ThaiAbove.mark;
-
-} ThaiAbove.mark;
-
-lookup ThaiLiga.mark {
-  # 1. Define mark anchors:
-  @ABOVE = [ uni0E31 uni0E34 uni0E35 uni0E47 uni0E48 uni0E49 ];
-  markClass @ABOVE <anchor 0 0> @ThaiLiga.mark;
- 
-  # 2. Define mark-to-ligature rules:
-  position ligature uni0E190E15.liga
-        <anchor 755 0> mark @ThaiLiga.mark
-        ligComponent
-        <anchor 1300 0> mark @ThaiLiga.mark
-        ;
-} ThaiLiga.mark;
-
-feature mark {
-  lookup ThaiAbove.mark;
-  lookup ThaiLiga.mark;
-} mark;
-
-lookup ThaiAbove.mkmk {
-  lookupflag 0;
-
-  markClass [ uni0E48 uni0E49 uni0E4C ] <anchor 0 0> @ThaiAbove.mkmk;
-  pos base [ uni0E34 ] <anchor 30 225> mark @ThaiAbove.mkmk;
-  pos base [ uni0E31 uni0E35 uni0E47 uni0E48 uni0E49 uni0E4C ] <anchor 30 255> mark @ThaiAbove.mkmk;
-
-} ThaiAbove.mkmk;
-
-feature mkmk {
-  lookup ThaiAbove.mkmk;
-} mkmk;
+# Latin
+#include(features/latin-roman.mark.fea)
+#include(features/latin-roman.mkmk.fea)
+#include(features/latin.kern.fea)

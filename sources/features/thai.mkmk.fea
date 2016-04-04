@@ -1,0 +1,31 @@
+languagesystem DFLT dflt;
+languagesystem thai dflt;
+languagesystem thai PAL ;
+languagesystem thai SAN ;
+
+#
+# Copyright (c) 2014-2016, Sungsit Sawaiwan (https://sungsit.com | gibbozer [at] gmail [dot] com).
+#
+# This Font Software is licensed under the SIL Open Font License, Version 1.1 (OFL).
+# You should have received a copy of the OFL License along with this file.
+# If not, see http://scripts.sil.org/OFL
+#
+
+include(thai-classes.fea)
+
+lookup ThaiBelow.mkmk {
+  lookupflag 0;
+  markClass [ @BV ] <anchor 0 0> @ThaiBelow.mkmk;
+  pos mark [ @BV @BV.comp ] <anchor 0 -240> mark @ThaiBelow.mkmk;
+} ThaiBelow.mkmk;
+
+lookup ThaiAbove.mkmk {
+  lookupflag 0;
+  markClass [ @T ] <anchor 0 0> @ThaiAbove.mkmk;
+  pos mark [ @AV @AV.comp ] <anchor 0 0> mark @ThaiAbove.mkmk;
+} ThaiAbove.mkmk;
+
+feature mkmk {
+  lookup ThaiBelow.mkmk;
+  lookup ThaiAbove.mkmk;
+} mkmk;

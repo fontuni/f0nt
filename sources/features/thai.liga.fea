@@ -1,0 +1,137 @@
+languagesystem DFLT dflt;
+languagesystem thai dflt;
+
+#
+# GSUB
+#
+
+include(thai-classes.fea)
+
+lookup Thai.liga {
+
+  # นด
+  sub uni0E19 uni0E14 by uni0E190E14.liga;
+  # นต
+  sub uni0E19 uni0E15 by uni0E190E15.liga;
+  # มน
+  sub uni0E21 uni0E19 by uni0E210E19.liga;
+  # มห
+  sub uni0E21 uni0E2B by uni0E210E2B.liga;
+  # ษย
+  sub uni0E29 uni0E22 by uni0E290E22.liga;
+
+} Thai.liga;
+
+# นด
+lookup Thai0E19.0E14 {
+  sub uni0E19 by uni0E190E14.liga;
+} Thai0E19.0E14;
+
+# นต
+lookup Thai0E19.0E15 {
+  sub uni0E19 by uni0E190E15.liga;
+} Thai0E19.0E15;
+
+# มน
+lookup Thai0E21.0E19 {
+  sub uni0E21 by uni0E210E19.liga;
+} Thai0E21.0E19;
+
+# มห
+lookup Thai0E21.0E2B {
+  sub uni0E21 by uni0E210E2B.liga;
+} Thai0E21.0E2B;
+
+# ษย
+lookup Thai0E29.0E22 {
+  sub uni0E29 by uni0E290E22.liga;
+} Thai0E29.0E22;
+
+lookup ThaiCons.zw {
+  sub uni0E14 by uni200D;
+  sub uni0E15 by uni200D;
+  sub uni0E19 by uni200D;
+  sub uni0E22 by uni200D;
+  sub uni0E2B by uni200D;
+} ThaiCons.zw;
+
+lookup Thai.comp {
+  sub [ @AV @BV @T.sd ] by [ @AV.comp @BV.comp @T.comp ];
+} Thai.comp;
+
+lookup ThaiContext.liga {
+
+  sub uni0E19'lookup Thai0E19.0E14 [ @BV ]'lookup Thai.comp @T.sd'lookup Thai.comp uni0E14'lookup ThaiCons.zw;
+  sub uni0E19'lookup Thai0E19.0E14 [ @AV @T.sd ]'lookup Thai.comp @T uni0E14'lookup ThaiCons.zw;
+  sub uni0E19'lookup Thai0E19.0E14 [ @AV @BV @T.sd ]'lookup Thai.comp uni0E14'lookup ThaiCons.zw;
+
+  sub uni0E19'lookup Thai0E19.0E15 [ @BV ]'lookup Thai.comp @T.sd'lookup Thai.comp uni0E15'lookup ThaiCons.zw;
+  sub uni0E19'lookup Thai0E19.0E15 [ @AV @T.sd ]'lookup Thai.comp @T uni0E15'lookup ThaiCons.zw;
+  sub uni0E19'lookup Thai0E19.0E15 [ @AV @BV @T.sd ]'lookup Thai.comp uni0E15'lookup ThaiCons.zw;
+
+  sub uni0E21'lookup Thai0E21.0E19 [ @BV ]'lookup Thai.comp @T.sd'lookup Thai.comp uni0E19'lookup ThaiCons.zw;
+  sub uni0E21'lookup Thai0E21.0E19 [ @AV @T.sd ]'lookup Thai.comp @T uni0E19'lookup ThaiCons.zw;
+  sub uni0E21'lookup Thai0E21.0E19 [ @AV @BV @T.sd ]'lookup Thai.comp uni0E19'lookup ThaiCons.zw;
+
+  sub uni0E21'lookup Thai0E21.0E2B [ @BV ]'lookup Thai.comp @T.sd'lookup Thai.comp uni0E2B'lookup ThaiCons.zw;
+  sub uni0E21'lookup Thai0E21.0E2B [ @AV @T.sd ]'lookup Thai.comp @T uni0E2B'lookup ThaiCons.zw;
+  sub uni0E21'lookup Thai0E21.0E2B [ @AV @BV @T.sd ]'lookup Thai.comp uni0E2B'lookup ThaiCons.zw;
+
+  sub uni0E29'lookup Thai0E29.0E22 [ @BV ]'lookup Thai.comp @T.sd'lookup Thai.comp uni0E22'lookup ThaiCons.zw;
+  sub uni0E29'lookup Thai0E29.0E22 [ @AV @T.sd ]'lookup Thai.comp @T uni0E22'lookup ThaiCons.zw;
+  sub uni0E29'lookup Thai0E29.0E22 [ @AV @BV @T.sd]'lookup Thai.comp uni0E22'lookup ThaiCons.zw;
+
+} ThaiContext.liga;
+
+
+lookup ThaiLiga.mark {
+
+  markClass [ @AV.comp @T.comp ]  <anchor 0 0> @ThaiLigaAbove.mark;
+  markClass @BV.comp <anchor 0 0> @ThaiLigaBelow.mark;
+
+  position ligature uni0E190E14.liga 
+    <anchor 720 0> mark @ThaiLigaAbove.mark
+    <anchor 750 0> mark @ThaiLigaBelow.mark
+    ligComponent 
+    <anchor NULL> mark @ThaiLigaAbove.mark
+    <anchor NULL> mark @ThaiLigaBelow.mark
+    ;
+  position ligature uni0E190E15.liga 
+    <anchor 720 0> mark @ThaiLigaAbove.mark
+    <anchor 750 0> mark @ThaiLigaBelow.mark
+    ligComponent 
+    <anchor NULL> mark @ThaiLigaAbove.mark
+    <anchor NULL> mark @ThaiLigaBelow.mark
+    ;
+  position ligature uni0E210E19.liga 
+    <anchor 720 0> mark @ThaiLigaAbove.mark
+    <anchor 780 0> mark @ThaiLigaBelow.mark
+    ligComponent 
+    <anchor NULL> mark @ThaiLigaAbove.mark
+    <anchor NULL> mark @ThaiLigaBelow.mark
+    ;
+  position ligature uni0E210E2B.liga 
+    <anchor 720 0> mark @ThaiLigaAbove.mark
+    <anchor 780 0> mark @ThaiLigaBelow.mark
+    ligComponent 
+    <anchor NULL> mark @ThaiLigaAbove.mark
+    <anchor NULL> mark @ThaiLigaBelow.mark
+    ;
+  position ligature uni0E290E22.liga 
+    <anchor 720 0> mark @ThaiLigaAbove.mark
+    <anchor 780 0> mark @ThaiLigaBelow.mark
+    ligComponent 
+    <anchor NULL> mark @ThaiLigaAbove.mark
+    <anchor NULL> mark @ThaiLigaBelow.mark
+    ;
+} ThaiLiga.mark;
+
+
+feature liga {
+  lookup Thai.liga;
+  lookup ThaiContext.liga;
+} liga;
+
+feature mark {
+  lookup ThaiLiga.mark;
+} mark;

@@ -42,7 +42,7 @@ $headingTextShadow: none;
 $headingLetterSpacing: normal;
 $headingTextTransform: capitalize;
 $headingFontWeight: 400;
-$linkColor: #2ad;
+$linkColor: #e03;
 $linkColorHover: lighten( $linkColor, 15% );
 $selectionBackgroundColor: lighten( $linkColor, 25% );
 
@@ -139,7 +139,7 @@ body .reveal {
     text-align: left;
     .slide h1:first-child {
       background: #fff;
-      //color: $backgroundColor;
+      color: $linkColor;
       padding: 0.12em 0.35em;
       margin-bottom: 30px;
       border: 1px solid darken( $backgroundColor, 5% );
@@ -186,6 +186,12 @@ body .reveal {
         padding: 0.2em 1.5em 0.2em 0;
       }
       th { padding-bottom: 0.5em; }
+    }
+  }
+  
+  #thai-ligatures {
+    span {
+      color: $linkColor;
     }
   }
 

@@ -75,6 +75,12 @@ date: 2015/04/05 21:00 +0700
 </p>
 </section>
 
+<section id="thai-ligatures" class="slide level1">
+<h1>การเชื่อมตัวอักษรไทย</h1>
+<p><small>ฟอนต์ฟ๐นต์ในรุ่น ๐.๑ อัลฟ่า๑ มีตัวอักษรไทยที่เชื่อมต่อกัน ๕ คู่ คือ นด นต มน มห ษย</small></p>
+<p>ริ<span>ษย</span>า ด<span>นต</span>รี อิ<span>นดี้</span>สุด<span>มัน</span> <span>มห</span>าศาล</p>
+</section>
+
 <section id="github-repository" class="slide level1">
 <h1>ข้อมูลการพัฒนา</h1>
 <p><a href="https://github.com/fontuni/f0nt" class="uri">ซอร์สโค้ด</a></p>

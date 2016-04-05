@@ -29,8 +29,15 @@ lookup Thai.sd {
   sub @T by @T.sd;
 } Thai.sd;
 
+lookup Thai.su {
+  sub uni0E47 by uni0E47.su;
+  sub uni0E4D by uni0E4D.su;
+  sub uni0E4E by uni0E4E.su;
+} Thai.su;
+
 lookup ThaiContext.fallback {
   sub [ @NC @AC @DC @RC @RC.rd @BV ] @T'lookup Thai.sd;
+  sub [ @AV.all @T.all ] [ uni0E47 uni0E4D uni0E4E ]'lookup Thai.su;
 } ThaiContext.fallback;
 
 # Thai Sara Am decomposition (Don't include any zero-width space here, it causes Mac OS bug) 

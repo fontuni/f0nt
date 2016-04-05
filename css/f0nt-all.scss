@@ -1,0 +1,33 @@
+// Font properties
+$font-family: "F0nt";
+$weights: 100 200 300 400 500 600 700 800 900;
+
+// Theme-specific fonts
+@mixin font-include($font-family, $name, $weight, $style) {
+  font-family: $font-family;
+  src: url(../fonts/woff2/#{$name}.woff2) format('woff2'),
+       url(../fonts/woff/#{$name}.woff) format('woff'),
+       url(../fonts/ttf/#{$name}.ttf) format('truetype');
+  font-weight: $weight;
+  font-style: $style;
+}
+
+// Font options
+@mixin font-class($font-family, $weight, $style) {
+  font-family: $font-family;
+  font-weight: $weight;
+  font-style: $style;
+}
+
+@each $weight in $weights {
+  @font-face {
+    @include font-include(#{$font-family}, #{$font-family}-#{$weight}, #{$weight}, normal);
+  }
+  .f0nt-#{$weight} { @include font-class(#{$font-family}, #{$weight}, normal); }
+}
+
+// 1000 weight needs extra care!
+@font-face {
+  @include font-include("#{$font-family} Ultra", #{$font-family}-1000, 400, normal);
+}
+.f0nt-1000 { @include font-class("#{$font-family} Ultra", 400, normal); }

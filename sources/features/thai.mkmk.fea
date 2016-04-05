@@ -21,7 +21,7 @@ lookup ThaiBelow.mkmk {
 
 lookup ThaiAbove.mkmk {
   lookupflag 0;
-  markClass [ @T ] <anchor 0 0> @ThaiAbove.mkmk;
+  markClass [ @T @AV.su ] <anchor 0 0> @ThaiAbove.mkmk;
   pos mark [ @AV @AV.comp ] <anchor 0 0> mark @ThaiAbove.mkmk;
 } ThaiAbove.mkmk;
 

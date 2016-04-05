@@ -45,8 +45,9 @@
 
 # Above vowel/diacritic
 @AV    = [ uni0E31 uni0E34 uni0E35 uni0E36 uni0E37 uni0E47 uni0E4D uni0E4E ];
+@AV.su = [ uni0E47.su uni0E4D.su uni0E4E.su ];
 @AV.comp = [ uni0E31.comp uni0E34.comp uni0E35.comp uni0E36.comp uni0E37.comp uni0E47.comp uni0E4D.comp uni0E4E.comp ];
-@AV.all = [ @AV @AV.comp];
+@AV.all = [ @AV @AV.su @AV.comp ];
 
 # Above tone/diacritic
 @T     = [ uni0E48 uni0E49 uni0E4A uni0E4B uni0E4C ];
@@ -60,7 +61,7 @@
 # These classes maybe useful for referencing and GDEF table.
 @BASE = [ @NC @AC @DC @RC @RC.rd @LV @FV @IV @SB @DIGIT ];
 
-#@LIGATURES = [ uni0E240E45.liga uni0E260E45.liga uni0E4F.extra ];
+@LIGATURES = [ uni0E190E14.liga uni0E190E15.liga uni0E210E19.liga uni0E210E2B.liga uni0E290E22.liga ];
 @MARKS = [ @AV.all @BV.all @T.all ];
 
 # FontForge automagically adds GDEF table whenever it generates new font. 
@@ -69,5 +70,5 @@
 # And it seems Adobe complex layout engine (World-Ready) needs GDEF to display Thai @MARKS correctly.
 
 table GDEF {
-  GlyphClassDef @BASE, , @MARKS, ;
+  GlyphClassDef @BASE, @LIGATURES, @MARKS, ;
 } GDEF;

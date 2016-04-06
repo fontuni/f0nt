@@ -35,15 +35,37 @@ lookup Thai.su {
   sub uni0E4E by uni0E4E.su;
 } Thai.su;
 
-lookup ThaiContext.fallback {
-  sub [ @NC @AC @DC @RC @RC.rd @BV ] @T'lookup Thai.sd;
-  sub [ @AV.all @T.all ] [ uni0E47 uni0E4D uni0E4E ]'lookup Thai.su;
-} ThaiContext.fallback;
-
 # Thai Sara Am decomposition (Don't include any zero-width space here, it causes Mac OS bug) 
 lookup ThaiDecomp {
-  sub \uni0E33 by \uni0E4D \uni0E32;
+  sub uni0E33 by uni0E4D uni0E32;
 } ThaiDecomp;
+
+# Sara Am
+lookup Thai0E33.0E32 {
+  lookupflag 0;
+    sub uni0E33 by uni0E32 ;
+} Thai0E33.0E32;
+
+lookup ThaiTone.0E4D {
+  lookupflag 0;
+    sub uni0E48 by uni0E4D uni0E48;
+    sub uni0E49 by uni0E4D uni0E49;
+    sub uni0E4A by uni0E4D uni0E4A;
+    sub uni0E4B by uni0E4D uni0E4B;
+    sub uni0E4C by uni0E4D uni0E4C;
+} ThaiTone.0E4D;
+
+lookup ThaiContext.fallback {
+
+  # Sara AM handle (CoreText fix)
+  sub [ @NC @AC @DC @RC @RC.rd @BV @LIGATURES ] @T'lookup ThaiTone.0E4D [ uni0E33 ];
+  sub [ @NC @AC @DC @RC @RC.rd @BV @LIGATURES ] uni0E4D @T [ uni0E33 ]'lookup Thai0E33.0E32;
+  sub [ @NC @AC @DC @RC @RC.rd @BV @LIGATURES ] [ uni0E33 ]'lookup ThaiDecomp;
+  
+  sub [ @NC @AC @DC @RC @RC.rd @BV @LIGATURES ] @T'lookup Thai.sd;
+  sub [ @AV.all @T.all ] [ uni0E47 uni0E4D uni0E4E ]'lookup Thai.su;
+
+} ThaiContext.fallback;
 
 # Phinthu reordering fix for Uniscribe & Harfbuzz
 lookup ThaiBV.0E3A {
@@ -80,7 +102,7 @@ feature ss01 {
 } ss01;
 
 feature ccmp {
-  lookup ThaiDecomp;
+  #lookup ThaiDecomp;
   lookup ThaiContextRC.rd;
   lookup ThaiPhinthu.ro;
   lookup ThaiContext.fallback;

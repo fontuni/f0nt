@@ -10,10 +10,12 @@ thumbnail: /f0nt/images/thumbnail.svg
 date: Apr 6, 2016
 color: "#e06"
 cover:
-  path: /f0nt/images/f0nt-cover.png
+  path: /f0nt/images/f0nt-cover-1.png
 ---
 
 <strong class="f0nt-600">ฟ๐นต์</strong> เป็นฟอนต์ที่ได้รับแรงบันดาลใจจากโลโก้ <a href="http://f0nt.com" title="f0nt.com" class="f0nt-600">f0nt</a> แต่เพิ่งจะทำตัวอักษรไทยครบใน <strong class="f0nt-600">รุ่นตั้งไข่ (อัลฟ่า ๑)</strong> เหตุที่ใช้เวลานานในการทำฟอนต์นี้เพราะมันมีฟีเจอร์ที่ค่อนข้างซับซ้อน และตั้งใจให้เป็นฟอนต์ปากกามาร์กเกอร์ 10 น้ำหนัก! โดยเชื่อมตัวอักษรไทยบางตัวให้เป็นตัวเดียวกัน เช่น <span class="f0nt-600">นด นต มน มห ษย</span> เป็นต้น
+
+<!--more-->
 
 ![F0nt Font](images/sample.svg)
 

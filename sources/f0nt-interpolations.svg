@@ -28,15 +28,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.060938539"
-     inkscape:cx="6994.5012"
+     inkscape:cx="2908.417"
      inkscape:cy="2800"
      inkscape:document-units="px"
-     inkscape:current-layer="layer15"
+     inkscape:current-layer="layer3"
      showgrid="false"
-     inkscape:window-width="1366"
-     inkscape:window-height="732"
+     inkscape:window-width="2048"
+     inkscape:window-height="1046"
      inkscape:window-x="0"
-     inkscape:window-y="18"
+     inkscape:window-y="32"
      inkscape:window-maximized="1"
      units="px"
      inkscape:showpageshadow="false"
@@ -12963,7 +12963,7 @@
      inkscape:groupmode="layer"
      id="layer8"
      inkscape:label="น ง ท ห"
-     style="display:none">
+     style="display:inline">
     <path
        inkscape:connector-curvature="0"
        id="path7787"
@@ -14059,318 +14059,6 @@
   </g>
   <g
      style="display:none"
-     inkscape:label="0 f t"
-     id="layer14"
-     inkscape:groupmode="layer">
-    <g
-       transform="matrix(1,0,0,-1,8000,1635)"
-       id="g5003" />
-    <path
-       inkscape:connector-curvature="0"
-       style="fill:currentColor"
-       d="M 0,1130 C 0,908 108,675 326,675 l -3,16 c -203,0 -300,238 -300,437 0,209 106,371 230,371 l -2,16 C 100,1515 0,1345 0,1130 Z"
-       id="path8331" />
-    <path
-       inkscape:connector-curvature="0"
-       style="fill:currentColor"
-       d="m 9000,1143 c 0,-320 180,-477 424,-477 l -63,150 c -30,4 -83,147 -83,291 0,133 49,267 79,267 l -68,150 c -233,0 -289,-199 -289,-381 z"
-       id="path8329" />
-    <path
-       inkscape:connector-curvature="0"
-       style="fill:currentColor"
-       d="m 1000,1131 c 0,-233 116,-457 337,-457 l -10,31 c -184,0 -276,228 -276,421 0,201 100,359 214,359 l -10,31 c -160,0 -255,-174 -255,-385 z"
-       id="path8327" />
-    <path
-       inkscape:connector-curvature="0"
-       style="fill:currentColor"
-       d="m 2000,1133 c 0,-244 124,-460 348,-460 l -17,46 c -165,1 -251,217 -251,404 0,192 93,348 196,348 l -17,46 c -169,0 -259,-176 -259,-384 z"
-       id="path8325" />
-    <path
-       inkscape:connector-curvature="0"
-       style="fill:#d45500"
-       d="m 3000,1134 c 0,-255 132,-462 359,-462 l -23,61 c -145,1 -228,207 -228,388 0,184 87,336 180,336 l -24,61 c -178,0 -264,-180 -264,-384 z"
-       id="path8323" />
-    <path
-       inkscape:connector-curvature="0"
-       style="fill:currentColor"
-       d="m 4000,1136 c 0,-266 140,-465 370,-465 l -30,76 c -126,2 -204,197 -204,372 0,175 81,324 163,324 l -31,76 c -187,0 -268,-183 -268,-383 z"
-       id="path8321" />
-    <path
-       inkscape:connector-curvature="0"
-       style="fill:currentColor"
-       d="m 5000,1137 c 0,-276 148,-467 380,-467 l -36,90 c -107,2 -179,188 -179,356 0,167 74,314 146,314 l -39,90 c -197,0 -272,-186 -272,-383 z"
-       id="path8319" />
-    <path
-       inkscape:connector-curvature="0"
-       style="fill:#d45500"
-       d="m 6000,1139 c 0,-287 156,-470 391,-470 l -43,105 c -88,3 -155,178 -155,340 0,158 68,302 129,302 l -46,105 c -206,0 -276,-189 -276,-382 z"
-       id="path8317" />
-    <path
-       inkscape:connector-curvature="0"
-       style="fill:currentColor"
-       d="m 7000,1140 c 0,-298 164,-472 402,-472 l -49,120 c -68,3 -132,168 -132,324 0,150 62,290 113,290 l -53,120 c -215,0 -281,-193 -281,-382 z"
-       id="path8315" />
-    <path
-       inkscape:connector-curvature="0"
-       style="fill:currentColor"
-       d="m 8000,1142 c 0,-309 172,-475 413,-475 l -56,135 c -49,4 -107,157 -107,307 0,141 55,279 95,279 l -60,135 c -224,0 -285,-195 -285,-381 z"
-       id="path8301-3" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path11557"
-       d="m 251,1515 2,-16 c 200,0 309,-220 309,-429 C 562,841 456,691 323,691 l 3,-16 c 158,0 259,159 259,393 0,231 -116,447 -334,447 z"
-       style="fill:currentColor" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path11555"
-       d="m 9289,1524 68,-150 c 31,-2 85,-139 85,-284 0,-152 -50,-272 -81,-274 l 63,-150 c 244,0 296,197 296,388 0,258 -130,470 -431,470 z"
-       style="fill:currentColor" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path11553"
-       d="m 1255,1516 10,-31 c 181,0 284,-211 284,-413 0,-220 -100,-367 -222,-367 l 10,-31 c 168,0 263,163 263,392 0,234 -118,450 -345,450 z"
-       style="fill:currentColor" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path11551"
-       d="m 2259,1517 17,-46 c 162,0 259,-202 259,-397 0,-212 -94,-355 -204,-355 l 17,-46 c 177,0 267,168 267,392 0,237 -120,452 -356,452 z"
-       style="fill:currentColor" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path11549"
-       d="m 3264,1518 24,-61 c 144,-1 234,-192 234,-380 0,-203 -87,-343 -186,-344 l 23,-61 c 187,0 271,171 271,391 0,240 -120,455 -366,455 z"
-       style="fill:#d45500" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path11547"
-       d="m 4268,1519 31,-76 c 125,-1 210,-183 210,-364 0,-195 -81,-331 -169,-332 l 30,-76 c 196,0 275,176 275,391 0,243 -122,457 -377,457 z"
-       style="fill:currentColor" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path11545"
-       d="m 5272,1520 39,-90 c 106,-1 184,-176 184,-349 0,-186 -75,-320 -151,-321 l 36,-90 c 206,0 280,180 280,390 0,246 -124,460 -388,460 z"
-       style="fill:currentColor" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path11543"
-       d="m 6276,1521 46,-105 c 87,-1 160,-167 160,-333 0,-178 -69,-308 -134,-309 l 43,-105 c 215,0 284,185 284,390 0,249 -126,462 -399,462 z"
-       style="fill:#d45500" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path11541"
-       d="m 7281,1522 53,-120 c 69,-2 135,-157 135,-316 0,-169 -62,-296 -116,-298 l 49,-120 c 225,0 288,188 288,389 0,252 -126,465 -409,465 z"
-       style="fill:currentColor" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path11528"
-       d="m 8285,1523 60,-135 c 50,-2 110,-148 110,-300 0,-161 -56,-284 -98,-286 l 56,-135 c 234,0 292,193 292,389 0,255 -128,467 -420,467 z"
-       style="fill:currentColor" />
-    <path
-       style="fill:currentColor"
-       d="m 0,-74 c 0,-3 2,-12 3,-15 103,4 251,9 432,13 -1,3 -3,12 -3,15 C 242,-68 99,-72 0,-74 Z"
-       id="path21732"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:currentColor"
-       d="m 9000,30 c 7,-38 18,-93 30,-130 158,8 377,10 540,10 -8,29 -25,107 -30,130 -120,-4 -384,-10 -540,-10 z"
-       id="path21730"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:currentColor"
-       d="m 1000,-62 c 1,-7 4,-21 6,-28 109,4 265,8 444,12 -2,6 -5,23 -6,28 -182,-7 -339,-10 -444,-12 z"
-       id="path21728"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:currentColor"
-       d="m 2000,-51 c 2,-11 6,-29 9,-40 115,5 279,9 456,12 -3,9 -8,33 -9,40 -174,-6 -344,-10 -456,-12 z"
-       id="path21726"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:#d45500"
-       d="m 3000,-39 c 2,-15 7,-40 12,-54 121,5 293,9 468,12 -3,12 -10,44 -12,54 -167,-6 -350,-11 -468,-12 z"
-       id="path21724"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:currentColor"
-       d="m 4000,-28 c 3,-19 9,-48 15,-66 127,6 307,10 480,12 -4,15 -13,54 -15,66 -159,-6 -356,-11 -480,-12 z"
-       id="path21722"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:currentColor"
-       d="m 5000,-16 c 4,-22 11,-57 18,-79 134,6 321,9 492,11 -5,17 -15,65 -18,79 -151,-5 -361,-10 -492,-11 z"
-       id="path21720"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:#d45500"
-       d="m 6000,-5 c 5,-26 13,-65 21,-91 140,7 335,10 504,11 -6,20 -18,75 -21,91 C 6361,1 6137,-4 6000,-5 Z"
-       id="path21718"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:currentColor"
-       d="m 7000,7 c 5,-30 14,-76 24,-105 146,7 349,10 516,11 -6,23 -20,86 -24,105 C 7380,13 7143,7 7000,7 Z"
-       id="path21716"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:currentColor"
-       d="m 8000,18 c 6,-34 16,-84 27,-117 152,8 363,11 528,11 -7,26 -23,96 -27,117 -128,-4 -378,-11 -528,-11 z"
-       id="path21703"
-       inkscape:connector-curvature="0" />
-    <path
-       id="path24959"
-       d="m 70,502 c 22,-177 52,-420 52,-632 0,-110 69,-195 211,-195 82,0 138,22 172,46 -2,2 -11,9 -13,11 -31,-21 -81,-42 -161,-42 -126,0 -189,79 -189,180 0,213 -30,455 -50,632 -1,0 -7,1 -11,1 -4,0 -9,-1 -11,-1 z"
-       style="fill:currentColor"
-       inkscape:connector-curvature="0" />
-    <path
-       id="path24957"
-       d="m 9070,500 c 25,-165 51,-356 52,-612 1,-168 184,-222 320,-222 111,0 168,30 198,52 -25,22 -96,102 -118,131 -21,-10 -87,-38 -120,-40 -13,2 -15,32 -15,57 0,286 -12,454 -37,640 -15,3 -100,6 -148,6 -44,0 -114,-6 -132,-12 z"
-       style="fill:currentColor"
-       inkscape:connector-curvature="0" />
-    <path
-       id="path24955"
-       d="m 1070,502 c 22,-176 52,-413 52,-630 0,-116 82,-198 223,-198 85,0 141,23 175,47 -5,4 -21,19 -25,24 -30,-20 -81,-42 -156,-42 -113,0 -170,74 -170,167 0,221 -27,454 -48,632 -3,0 -18,2 -27,2 -8,0 -20,-1 -24,-2 z"
-       style="fill:currentColor"
-       inkscape:connector-curvature="0" />
-    <path
-       id="path24953"
-       d="m 2070,502 c 23,-174 52,-406 52,-628 0,-123 94,-201 235,-201 88,0 145,23 178,47 -7,6 -30,30 -36,38 -29,-19 -82,-42 -152,-42 -101,0 -151,69 -151,153 0,229 -26,455 -47,634 -4,1 -27,2 -41,2 -13,0 -32,-2 -38,-3 z"
-       style="fill:currentColor"
-       inkscape:connector-curvature="0" />
-    <path
-       id="path24951"
-       d="m 3070,501 c 23,-173 52,-398 52,-625 0,-129 107,-204 247,-204 92,0 148,25 181,48 -10,9 -39,40 -48,51 -28,-17 -83,-40 -147,-41 -88,1 -131,63 -131,139 0,237 -24,454 -46,634 -6,1 -38,3 -57,3 -17,0 -44,-3 -51,-5 z"
-       style="fill:#d45500"
-       inkscape:connector-curvature="0" />
-    <path
-       id="path24949"
-       d="m 4070,501 c 23,-172 52,-391 52,-623 0,-136 120,-207 259,-207 95,0 152,26 184,49 -12,11 -49,50 -60,64 -27,-16 -83,-40 -142,-41 -76,1 -112,58 -112,125 0,245 -22,455 -44,636 -7,1 -48,3 -72,3 -22,0 -56,-3 -65,-6 z"
-       style="fill:currentColor"
-       inkscape:connector-curvature="0" />
-    <path
-       id="path24947"
-       d="m 5070,501 c 24,-170 51,-385 52,-621 1,-142 133,-210 272,-210 98,0 154,26 186,49 -15,13 -58,61 -71,78 -25,-15 -85,-40 -139,-41 -63,1 -92,53 -92,112 0,254 -20,454 -43,636 -9,2 -59,4 -87,4 -26,0 -67,-4 -78,-7 z"
-       style="fill:currentColor"
-       inkscape:connector-curvature="0" />
-    <path
-       id="path24945"
-       d="m 6070,501 c 24,-169 51,-378 52,-619 1,-149 146,-213 284,-213 101,0 158,27 189,50 -17,15 -68,71 -83,91 -24,-14 -85,-40 -134,-41 -51,1 -73,48 -73,98 0,262 -18,455 -41,638 -10,2 -69,4 -102,4 -31,0 -79,-4 -92,-8 z"
-       style="fill:#d45500"
-       inkscape:connector-curvature="0" />
-    <path
-       id="path24943"
-       d="m 7070,500 c 24,-168 51,-370 52,-616 1,-155 159,-216 296,-216 105,0 161,29 192,51 -20,18 -77,81 -95,104 -23,-12 -86,-38 -129,-40 -38,2 -53,42 -53,84 0,270 -16,454 -40,638 -12,2 -80,5 -118,5 -35,0 -91,-5 -105,-10 z"
-       style="fill:currentColor"
-       inkscape:connector-curvature="0" />
-    <path
-       id="path24930"
-       d="m 8070,500 c 25,-166 51,-363 52,-614 1,-162 171,-219 308,-219 108,0 165,29 195,51 -22,20 -86,92 -106,118 -22,-11 -87,-38 -125,-40 -26,2 -34,37 -34,70 0,278 -15,455 -39,640 -13,3 -89,5 -132,5 -40,0 -103,-6 -119,-11 z"
-       style="fill:currentColor"
-       inkscape:connector-curvature="0" />
-    <g
-       transform="matrix(1,0,0,-1,9049,-500)"
-       id="g25065" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path25077"
-       d="m 9000,-970 c 7,-38 18,-93 30,-130 158,8 377,10 540,10 -8,29 -25,107 -30,130 -120,-4 -384,-10 -540,-10 z"
-       style="fill:currentColor" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path25102"
-       d="m 0,-1074 c 0,-3 2,-12 3,-15 103,4 251,9 432,13 -1,3 -3,12 -3,15 -190,-7 -333,-11 -432,-13 z"
-       style="fill:currentColor" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path25133"
-       d="m 1000,-1062 c 1,-7 4,-21 6,-28 109,4 265,8 444,12 -2,6 -5,23 -6,28 -182,-7 -339,-10 -444,-12 z"
-       style="fill:currentColor" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path25135"
-       d="m 2000,-1051 c 2,-11 6,-29 9,-40 115,5 279,9 456,12 -3,9 -8,33 -9,40 -174,-6 -344,-10 -456,-12 z"
-       style="fill:currentColor" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path25137"
-       d="m 3000,-1039 c 2,-15 7,-40 12,-54 121,5 293,9 468,12 -3,12 -10,44 -12,54 -167,-6 -350,-11 -468,-12 z"
-       style="fill:#d45500" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path25139"
-       d="m 4000,-1028 c 3,-19 9,-48 15,-66 127,6 307,10 480,12 -4,15 -13,54 -15,66 -159,-6 -356,-11 -480,-12 z"
-       style="fill:currentColor" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path25141"
-       d="m 5000,-1016 c 4,-22 11,-57 18,-79 134,6 321,9 492,11 -5,17 -15,65 -18,79 -151,-5 -361,-10 -492,-11 z"
-       style="fill:currentColor" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path25143"
-       d="m 6000,-1005 c 5,-26 13,-65 21,-91 140,7 335,10 504,11 -6,20 -18,75 -21,91 -143,-5 -367,-10 -504,-11 z"
-       style="fill:#d45500" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path25145"
-       d="m 7000,-993 c 5,-30 14,-76 24,-105 146,7 349,10 516,11 -6,23 -20,86 -24,105 -136,-5 -373,-11 -516,-11 z"
-       style="fill:currentColor" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path25147"
-       d="m 8000,-982 c 6,-34 16,-84 27,-117 152,8 363,11 528,11 -7,26 -23,96 -27,117 -128,-4 -378,-11 -528,-11 z"
-       style="fill:currentColor" />
-    <path
-       style="fill:currentColor"
-       d="m 9070,-630 c 0,-182 59,-370 70,-578 75,-13 206,-24 278,-24 -37,231 -73,429 -73,552 0,32 9,48 22,53 32,0 90,-26 123,-48 16,28 68,87 90,105 -48,42 -157,94 -295,94 -182,0 -215,-88 -215,-154 z"
-       id="path28447"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:currentColor"
-       d="m 70,-624 c 0,-186 70,-371 95,-596 5,-1 17,-3 21,-3 -28,222 -95,412 -95,597 0,74 66,126 167,126 82,0 135,-20 177,-41 l 10,14 c -45,23 -103,42 -191,42 -110,0 -184,-58 -184,-139 z"
-       id="path28445"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:currentColor"
-       d="m 8070,-629 c 0,-182 60,-370 73,-580 67,-12 185,-22 249,-22 -36,230 -75,427 -75,557 0,37 15,57 38,61 38,0 95,-25 129,-47 14,25 61,79 81,95 -48,40 -151,88 -283,88 -174,0 -212,-84 -212,-152 z"
-       id="path28443"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:currentColor"
-       d="m 7070,-629 c 0,-183 62,-370 76,-582 59,-10 163,-19 220,-19 -35,229 -77,425 -77,562 0,41 21,65 54,69 43,0 100,-24 135,-46 12,22 55,71 72,85 -47,38 -145,82 -272,82 -166,0 -208,-82 -208,-151 z"
-       id="path28441"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:#d45500"
-       d="m 6070,-628 c 0,-183 62,-370 78,-584 52,-9 144,-17 193,-17 -34,228 -81,423 -81,567 0,46 29,74 71,77 49,0 105,-23 141,-45 11,19 48,62 63,74 -47,36 -139,77 -260,77 -158,0 -205,-78 -205,-149 z"
-       id="path28439"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:currentColor"
-       d="m 5070,-627 c 0,-184 64,-370 81,-586 44,-8 122,-15 164,-15 -33,227 -83,421 -83,572 0,51 35,82 87,85 54,0 110,-22 147,-44 9,16 42,54 54,64 -47,34 -133,71 -249,71 -150,0 -201,-74 -201,-147 z"
-       id="path28437"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:currentColor"
-       d="m 4070,-627 c 0,-184 65,-371 84,-588 36,-6 101,-12 135,-12 -32,226 -85,420 -85,577 0,55 40,92 102,94 60,0 115,-24 153,-45 7,12 36,47 46,55 -46,31 -127,65 -237,65 -142,0 -198,-72 -198,-146 z"
-       id="path28435"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:#d45500"
-       d="m 3070,-626 c 0,-185 67,-371 87,-590 28,-5 79,-10 106,-10 -31,225 -87,418 -87,582 0,60 46,100 118,102 65,0 120,-23 159,-44 5,9 30,39 37,45 -46,29 -121,59 -226,59 -134,0 -194,-68 -194,-144 z"
-       id="path28433"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:currentColor"
-       d="m 2070,-625 c 0,-185 67,-371 89,-592 21,-4 60,-8 79,-8 -30,224 -91,416 -91,587 0,65 54,109 135,110 71,0 125,-22 165,-43 4,6 23,30 28,34 -46,27 -115,54 -214,54 -126,0 -191,-64 -191,-142 z"
-       id="path28431"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:currentColor"
-       d="m 1070,-625 c 0,-186 69,-371 92,-594 13,-2 38,-5 50,-5 -29,223 -93,414 -93,592 0,69 60,117 151,118 76,0 130,-21 171,-42 2,3 17,22 19,24 -45,25 -109,48 -203,48 -118,0 -187,-62 -187,-141 z"
-       id="path28418"
-       inkscape:connector-curvature="0" />
-  </g>
-  <g
-     style="display:none"
      inkscape:label="B฿"
      id="layer3"
      inkscape:groupmode="layer">
@@ -14760,7 +14448,7 @@
      inkscape:groupmode="layer"
      id="layer15"
      inkscape:label="punctuations"
-     style="display:inline">
+     style="display:none">
     <path
        style="fill:currentColor"
        d="m 9000,-785 c 0,-259 121,-434 225,-539 l 210,26 c -86,87 -196,240 -196,483 0,228 57,354 98,403 l -224,66 c -57,-67 -113,-203 -113,-439 z"
@@ -14918,42 +14606,52 @@
     <path
        style="fill:currentColor"
        d="m 500,1436 c 19,-9 37,-13 52,-13 65,0 78,65 78,106 0,82 -42,169 -115,211 l -10,-11 c 65,-39 103,-116 103,-201 0,-41 -21,-76 -58,-76 -12,0 -24,5 -40,13 -4,-6 -10,-19 -10,-29 z"
-       id="path37666" />
+       id="path37666"
+       inkscape:connector-curvature="0" />
     <path
        style="fill:currentColor"
        d="m 9500,1336 c 29,-18 96,-54 175,-54 105,0 155,73 155,153 0,148 -101,271 -210,314 l -105,-30 c 61,-47 125,-134 125,-228 0,-19 -9,-38 -12,-41 -6,1 -71,30 -88,39 -17,-30 -40,-94 -40,-153 z"
-       id="path37664" />
+       id="path37664"
+       inkscape:connector-curvature="0" />
     <path
        style="fill:currentColor"
        d="m 1500,1425 c 20,-10 44,-18 66,-18 69,0 86,67 86,112 0,89 -48,180 -125,222 l -21,-13 c 65,-40 106,-118 106,-204 0,-39 -20,-72 -53,-72 -11,0 -30,8 -46,16 -5,-9 -13,-28 -13,-43 z"
-       id="path37662" />
+       id="path37662"
+       inkscape:connector-curvature="0" />
     <path
        style="fill:currentColor"
        d="m 2500,1414 c 21,-11 50,-22 79,-22 74,0 95,66 95,116 0,97 -55,192 -136,234 l -31,-15 c 64,-41 108,-120 108,-207 0,-36 -19,-67 -48,-68 -11,0 -34,10 -50,18 -7,-11 -17,-35 -17,-56 z"
-       id="path37660" />
+       id="path37660"
+       inkscape:connector-curvature="0" />
     <path
        style="fill:#d45500"
        d="m 3500,1403 c 22,-12 57,-27 93,-27 78,0 104,68 104,122 0,104 -62,203 -147,245 l -42,-17 c 64,-42 111,-122 111,-210 0,-34 -17,-64 -43,-65 -10,0 -40,14 -56,22 -8,-14 -20,-44 -20,-70 z"
-       id="path37658" />
+       id="path37658"
+       inkscape:connector-curvature="0" />
     <path
        style="fill:currentColor"
        d="m 4500,1392 c 23,-13 64,-32 107,-32 83,0 112,69 112,127 0,111 -68,215 -157,257 l -53,-19 c 63,-43 113,-124 113,-213 0,-31 -15,-60 -37,-61 -9,0 -46,17 -62,25 -10,-17 -23,-52 -23,-84 z"
-       id="path37656" />
+       id="path37656"
+       inkscape:connector-curvature="0" />
     <path
        style="fill:currentColor"
        d="m 5500,1380 c 25,-14 69,-35 120,-35 87,0 121,69 121,132 0,119 -75,225 -168,268 l -62,-22 c 63,-43 115,-126 115,-216 0,-29 -15,-54 -33,-56 -9,1 -49,18 -66,27 -11,-19 -27,-61 -27,-98 z"
-       id="path37654" />
+       id="path37654"
+       inkscape:connector-curvature="0" />
     <path
        style="fill:#d45500"
        d="m 6500,1369 c 26,-15 76,-40 134,-40 92,0 129,70 129,137 0,126 -81,237 -178,280 l -73,-24 c 62,-44 117,-128 117,-219 0,-26 -13,-50 -27,-52 -8,1 -55,21 -72,30 -13,-22 -30,-69 -30,-112 z"
-       id="path37652" />
+       id="path37652"
+       inkscape:connector-curvature="0" />
     <path
        style="fill:currentColor"
        d="m 7500,1358 c 27,-16 83,-45 148,-45 96,0 138,72 138,143 0,133 -88,248 -189,291 l -84,-26 c 62,-45 120,-130 120,-222 0,-24 -11,-47 -22,-49 -7,1 -61,25 -78,34 -14,-25 -33,-78 -33,-126 z"
-       id="path37650" />
+       id="path37650"
+       inkscape:connector-curvature="0" />
     <path
        style="fill:currentColor"
        d="m 8500,1347 c 28,-17 89,-49 161,-49 101,0 147,71 147,147 0,141 -95,260 -200,303 l -94,-28 c 61,-46 122,-132 122,-225 0,-21 -10,-42 -17,-45 -7,1 -65,27 -82,36 -16,-27 -37,-85 -37,-139 z"
-       id="path37637" />
+       id="path37637"
+       inkscape:connector-curvature="0" />
   </g>
 </svg>

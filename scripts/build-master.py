@@ -18,10 +18,10 @@ import datetime
 # Predifined vars
 foundry = 'FontUni'
 family = 'F0nt'
-version = '0.1-alpha1'
+version = '0.1-alpha2'
 sources = ['sources/f0nt-master.sfd']
 layers = ['100', '200', '300', '400', '500', '600', '700', '800', '900', '1000']
-copyright =  'Copyright 2015, Sungsit Sawaiwan'
+copyright =  'Copyright 2016, Sungsit Sawaiwan'
 features = ['f0nt-master']
 feature_dir = 'sources/'
 
